@@ -1,0 +1,161 @@
+.app-container {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+}
+
+.sidebar {
+    min-height: 800px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: monospace;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 35px;
+    /* color: orange; */
+    color: blue;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.logo span {
+    color: white;
+}
+
+.text {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+    margin: auto;
+}
+
+.message {
+    margin: 100px 0;
+}
+.setTable{
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.setPagination{
+    margin-top: 60px;
+    margin-left: 500px;
+}
+
+
+.actionbtn{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.icon{
+    color: white;
+    font-size: 25px;
+}
+
+.model-Content{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+
+.model-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model-content{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+}
+
+.model-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 1.5em;
+    cursor: pointer;
+
+    background-color: blue;
+
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.model-overlay h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    text-align: left;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+form button{
+    background: blue;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
